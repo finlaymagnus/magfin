@@ -1,0 +1,37 @@
+body,html{
+    background-image: url("SPimages/ski intro.jpeg");
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    }
+    
+    nav>ul {
+    list-style-type: none;
+    margin:10;
+    padding: 10;
+    overflow; hidden;
+    text-allign: center;
+    }
+    
+    nav>ul>li{
+    display:inline;
+    }
+    
+    nav>ul>li a {
+      display: inliine-block;
+      colour: black;
+      text-align: center;
+      padding: 10px 30px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-family: sans-serif;
+    
+    }
+    
+    li a:hover {
+      colour:white;
+      background-colour:grey;
+    }
+    header{
+      background-color: "black"
+    }
